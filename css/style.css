@@ -5,7 +5,7 @@
 }
 
 body {
-      height: 100vh;
+/*       height: 100vh; */
       background-image: linear-gradient(to right , 	pink,  #9f40bf);
 }
 
@@ -13,7 +13,7 @@ main {
       height: 620px;
       background-color: pink;
       width: 70vw;
-      margin: 80px auto;
+      margin: 90px auto;
       display: flex;
       position: relative;
 }
