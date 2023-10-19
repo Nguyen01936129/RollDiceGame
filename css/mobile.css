@@ -2,8 +2,14 @@
       main {
             width: 85vw;
       }
+
+      .player1 {
+            width: 50%;
+            padding: 80px 0px;
+      }
       
       .player1_title, .player2_title {
+            width: 100%;
             padding-top: 30px;
             font-size: 30px;
             text-align: center;
@@ -17,7 +23,6 @@
       }
       
       .cur_point_field {
-            margin-left: -32px;
             width: 190px;
             height: 130px;
       }
@@ -35,10 +40,8 @@
       /* player 2 */
       
       .player2 {
-            /* background-color: #eca1a1; */
-            background-color: #ff8080;
             width: 50%;
-            padding: 80px 100px;
+            padding: 80px 0px;
       
       }
       
