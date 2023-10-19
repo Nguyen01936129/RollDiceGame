@@ -1,0 +1,93 @@
+@media screen and (max-width: 770px){
+      main {
+            width: 85vw;
+      }
+      
+      .player1_title, .player2_title {
+            padding-top: 30px;
+            font-size: 30px;
+            text-align: center;
+      }
+      
+      .player1_point, .player2_point {
+            display: block;
+            font-size: 9cqmax;
+            text-align: center;
+            margin: 40px 0;
+      }
+      
+      .cur_point_field {
+            margin-left: -32px;
+            width: 190px;
+            height: 130px;
+      }
+      .cur_point_field > p {
+            padding-top: 20px;
+            font-size: 24px;
+      }
+      
+      .cur_point_field > span {
+            display: block;
+            margin-top: 20px;
+            font-size: 40px;
+      }
+      
+      /* player 2 */
+      
+      .player2 {
+            /* background-color: #eca1a1; */
+            background-color: #ff8080;
+            width: 50%;
+            padding: 80px 100px;
+      
+      }
+      
+      .active {
+            background-color: #ec6d5a58 ;
+      }
+      
+      .win {
+            background-color: #837d7d;
+      }
+      .new_game, .roll_dice, .hold {
+            position: absolute;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 40px;
+            border: none;
+            cursor: pointer;
+            
+      }
+      
+      .new_game:hover, .roll_dice:hover, .hold:hover {
+            background-color: #e5dede;
+      }
+      
+      .new_game {
+            top: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+      }
+      
+      .roll_dice {
+            top: 52%;
+            left: 50%;
+            transform: translateX(-50%);
+      }
+      
+      .hold {
+            top: 68%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+      }
+      
+      img {
+            position: absolute;
+            top: 28%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            height: 110px;
+            width: 110px;
+      }
+};
+      

@@ -1,0 +1,125 @@
+*{
+      margin: 0;
+      padding: 0; 
+      box-sizing: border-box;
+}
+
+body {
+      height: 100vh;
+      background-image: linear-gradient(to right , 	pink,  #9f40bf);
+}
+
+main {
+      height: 80vh;
+      background-color: pink;
+      width: 70vw;
+      margin: 80px auto;
+      display: flex;
+      position: relative;
+}
+
+.player1 {
+      background-color: #ff8080;
+      /* background-color: #ec6d5a58; */
+      width: 50%;
+      padding: 80px 100px;
+}
+
+
+
+.player1_title, .player2_title {
+      padding-top: 10px;
+      font-size: 38px;
+      text-align: center;
+}
+
+.player1_point, .player2_point {
+      display: block;
+      font-size: 100px;
+      text-align: center;
+      margin: 40px 0;
+}
+
+.cur_point_field {
+      display: block;
+      width: 240px;
+      height: 140px;
+      background-color: white;
+      margin: 100px auto 20px;
+      background-color: rgb(215, 52, 79);
+      border-radius: 20px;
+      text-align: center;
+      color: #fff;
+}
+.cur_point_field > p {
+      padding-top: 20px;
+      font-size: 28px;
+}
+
+.cur_point_field > span {
+      display: block;
+      margin-top: 20px;
+      font-size: 42px;
+}
+
+/* player 2 */
+
+.player2 {
+      /* background-color: #eca1a1; */
+      background-color: #ff8080;
+      width: 50%;
+      padding: 80px 100px;
+
+}
+
+.active {
+      background-color: #ec6d5a58 ;
+}
+
+.win {
+      background-color: #837d7d;
+}
+.new_game, .roll_dice, .hold {
+      position: absolute;
+      font-size: 20px;
+      padding: 15px 30px;
+      border-radius: 40px;
+      border: none;
+      cursor: pointer;
+      
+}
+
+.new_game:hover, .roll_dice:hover, .hold:hover {
+      background-color: #e5dede;
+}
+
+.new_game {
+      top: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+.roll_dice {
+      top: 59%;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+.hold {
+      top: 72%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+}
+
+img {
+      position: absolute;
+      top: 28%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      height: 120px;
+      width: 120px;
+}
+
+.hidden {
+      display: none;
+}
