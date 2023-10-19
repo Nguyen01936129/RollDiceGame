@@ -1,6 +1,7 @@
 @media screen and (max-width: 770px){
       main {
             width: 92vw;
+            margin: 90px auto;
       }
 
       .player1 {
